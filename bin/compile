@@ -1,3 +1,5 @@
 #!/bin/sh
 
+mkdir -p /var/cache/apt/archives
+touch /var/cache/apt/archives/partial
 apt-get autoremove imagemagick
